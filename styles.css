@@ -255,7 +255,7 @@ h3 {
         .nav_bar {
             position: fixed;
             background-color: #06d6a0;
-            font-size: 4rem;
+            font-size: 3rem;
             min-height: 6rem;
         }
 
@@ -278,7 +278,7 @@ h3 {
         p {
             font-family: 'Tiro Tamil', serif;
             line-height: normal;
-            font-size: 3rem;
+            font-size: 2.3rem;
             color: #354259;
             padding: 6rem 4rem 10rem 4rem;
         }
@@ -298,7 +298,7 @@ h3 {
             padding-top: 1.5rem;
             padding-bottom: 1rem;
             line-height: normal;
-            font-size: 3rem;
+            font-size: 2.4rem;
             font-family: 'Tiro Tamil', serif;
         }
 
