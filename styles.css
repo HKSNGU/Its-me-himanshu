@@ -1,0 +1,389 @@
+.nav_bar {
+    position: fixed;
+    background-color: #06d6a0;
+}
+
+.hello {
+    color: #06d6a0;
+    font-size: 2.5rem;
+}
+
+#header {
+    text-align: center;
+}
+
+.Header_img1 {
+    width: 20%;
+    position: absolute;
+    right: 80%;
+    margin-top: 10%; 
+}
+
+.Header_img2 {
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    margin-top: 3%; 
+}
+
+.header_item1 {
+    padding-top: 18rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 600%;
+    color: #06d6a0;
+}
+
+.header_item2 {
+    padding-bottom: 8rem;
+    font-size: 130%;
+    color: #06d6a0;
+}
+
+.hr {
+    border-style: none;
+    border-top: 0.5rem dotted #06d6a0;
+    width: 8%;
+    margin: 2rem auto 2rem auto;
+}
+
+.pro {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.profile {
+    width: 20%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+
+.p {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    line-height: normal;
+    font-size: large;
+    font-family: 'Tiro Tamil', serif;
+}
+
+p {
+    font-family: 'Tiro Tamil', serif;
+    line-height: normal;
+    font-size: large;
+    color: #354259;
+}
+
+#skills {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.skill-row {
+    padding: 2rem 23rem 3rem 23rem;
+    text-align: left;
+}
+
+.skill-row_h3 {
+    color: #06d6a0; 
+    font-weight:400; 
+    font-size: 1.5rem;
+}
+
+.coding {
+    float: left;
+    padding-right: 2rem;
+    width: 28%;
+}
+
+.art {
+    float: right;
+    padding-left: 2rem;
+    width: 28%;
+}
+
+.WebDev {
+    float: left;
+    padding-right: 2rem;
+    width: 28%;
+}
+
+h3 {
+    color: #06d6a0;
+}
+
+#contact-me {
+    padding: 5rem 26rem 0rem 26rem;
+    text-align: center;
+}
+
+.contact-me_h2 {
+    color: #06d6a0;
+    font-size: 2.5rem;
+}
+
+.contact-me_h3 {
+    color: #06d6a0;
+    font-weight:400;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.button {
+    background: #06d6a0;
+    background-image: -webkit-linear-gradient(top, #06d6a0, #06aa7e);
+    background-image: -moz-linear-gradient(top, #06d6a0, #06aa7e);
+    background-image: -ms-linear-gradient(top, #06d6a0, #06aa7e);
+    background-image: -o-linear-gradient(top, #06d6a0, #06aa7e);
+    background-image: linear-gradient(to bottom, #06d6a0, #06aa7e);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
+  
+  .button:hover {
+    background: #06aa7e;
+    background-image: -webkit-linear-gradient(top, #06aa7e, #09d6a0);
+    background-image: -moz-linear-gradient(top, #06aa7e, #09d6a0);
+    background-image: -ms-linear-gradient(top, #06aa7e, #09d6a0);
+    background-image: -o-linear-gradient(top, #06aa7e, #09d6a0);
+    background-image: linear-gradient(to bottom, #06aa7e, #09d6a0);
+    text-decoration: none;
+    color: #048462;
+  }
+
+  .bottom-container {
+    text-align: center;
+    background-color: #06d6a0;
+    height: 9rem;
+    padding-top: 2rem;
+  }
+
+  .social {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+  }
+
+  .social:hover {
+    color: #048462;
+  }
+
+  .copy {
+    padding-top: 1rem;
+    color: #354259;
+  }
+
+  #middle-container{
+      margin-bottom: 8rem;
+  }
+
+  .ContactMe {
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .ContactMe_header {
+    color: #06d6a0;
+    font-size: 2.5rem;
+  }
+  
+
+  .tab {
+      padding: 2rem;
+  }
+
+  .body_ {
+      text-align: center;
+      background-color: #06d6a0;
+  }
+
+  .p1 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    line-height: normal;
+    font-size: 1.5rem;
+    font-family: 'Tiro Tamil', serif;
+    color: #02906a;
+    }
+
+    .ill_img {
+        height: 35%;
+        margin: 0 auto 0 auto;
+    }
+
+    @media (max-width: 1000px) {
+
+        .Header_img1 {
+            width: 40%;
+            position: absolute;
+            right: 60%;
+            margin-top: 135%; 
+        }
+        
+        .Header_img2 {
+            width: 40%;
+            position: absolute;
+            left: 60%;
+            margin-top: 7%; 
+        }
+        
+        .header_item1 {
+            padding: 40rem 3rem 0rem 3rem;
+            font-family: 'Sacramento', cursive;
+            font-size: 1200%;
+            color: #06d6a0;
+        }
+        
+        .header_item2 {
+            padding-bottom: 49rem;
+            font-size: 280%;
+            color: #06d6a0;
+        }
+
+        .hr {
+            border-style: none;
+            border-top: 2rem dotted #06d6a0;
+            width: 20%;
+            margin: 2rem auto 2rem auto;
+        }
+
+        .nav_bar {
+            position: fixed;
+            background-color: #06d6a0;
+            font-size: 4rem;
+            min-height: 6rem;
+        }
+
+        .pro {
+            text-align: center;
+            padding: 10rem 0rem 10rem 0rem;
+        }
+        
+        .profile {
+            width: 50%;
+            padding-top: 20rem;
+            padding-bottom: 6rem;
+        }
+        
+        .hello {
+            color: #06d6a0;
+            font-size: 6rem;
+        }
+        
+        p {
+            font-family: 'Tiro Tamil', serif;
+            line-height: normal;
+            font-size: 3rem;
+            color: #354259;
+            padding: 6rem 4rem 10rem 4rem;
+        }
+
+        .skill-row {
+            padding: 2rem 6rem 2rem 6rem;
+            text-align: center;
+        }
+        
+        .skill-row_h3 {
+            font-size: 4rem;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        .p {
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            line-height: normal;
+            font-size: 3rem;
+            font-family: 'Tiro Tamil', serif;
+        }
+
+        .coding {
+            float: none;
+            padding-top: 10rem;
+            width: 35%;
+            margin: 0 auto 0 auto;
+        }
+        
+        .art {
+            float: none;
+            padding-top: 10rem;
+            width: 35%;
+        }
+        
+        .WebDev {
+            float: none;
+            padding-top: 10rem;
+            width: 35%;
+        }
+
+        #contact-me {
+            padding: 15rem 5rem 15rem 5rem;
+            text-align: center;
+        }
+
+        .contact-me_h2 {
+            padding: 15rem 0rem 5rem 0rem;
+            color: #06d6a0;
+            font-size: 6rem;
+        }
+        
+        .contact-me_h3 {
+            color: #06d6a0;
+            font-weight:400;
+            font-size: 3.5rem;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+        }
+
+        .button {
+            padding: 18px 30px 18px 30px;
+            font-size: 2rem;
+          }
+
+        .bottom-container {
+            text-align: center;
+            background-color: #06d6a0;
+            height: 25rem;
+            padding-top: 3rem;
+        }
+    
+        .social {
+            font-size: 2.5rem;
+        }
+        
+        .copy {
+            font-size: 2.5rem;
+            padding-top: 5rem;
+        }
+    
+        .ill_img {
+            width: 70%;
+            height: auto;
+            margin: 0 auto 0 auto;
+        }
+
+        .illustra{
+            margin-top: 50%;
+        }
+
+        .ContactMe {
+            padding-top: 18rem;
+            font-size: 2.5rem;
+        }
+
+        .ContactMe_header {
+            color: #06d6a0;
+            font-size: 6rem;
+            padding-bottom: 2rem;
+          }
+
+        .ContactMe_button {
+            font-size: 2.5rem;
+            padding: 0.5% 4% 0.5% 4%;
+        }
+    }
